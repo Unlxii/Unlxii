@@ -82,9 +82,9 @@ VisScan automates security scanning for every code push — container vulnerabil
 
 ## Other Repositories
 
-| Repo | Stack | Description |
-|---|---|---|
-| [terraform-aws-demo](https://github.com/Unlxii/terraform-aws-demo) | Terraform · AWS | VPC + Subnet + EC2 provisioned with IaC |
+<!--| Repo | Stack | Description |-->
+<!--|---|---|---|-->
+<!--| [terraform-aws-demo](https://github.com/Unlxii/terraform-aws-demo) | Terraform · AWS | VPC + Subnet + EC2 provisioned with IaC |-->
 
 ---
 
