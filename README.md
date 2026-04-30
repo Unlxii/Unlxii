@@ -1,11 +1,11 @@
 # Ronnachai Sitthichoksathit
 
-**Platform Engineering · DevSecOps · Cloud Infrastructure**
+Computer Engineering Graduate | DevSecOps | Platform Engineering | Open to Work
 
 Computer Engineering Graduate — Chiang Mai University (2026)
 Open to Cloud Engineer, DevOps Engineer, and Platform Engineer roles · Bangkok or Remote
 
-[LinkedIn](https://linkedin.com/in/tent-ronnachai) · ronnachaisitti@gmail.com
+[LinkedIn](https://linkedin.com/in/tent-ronnachai) · ronnachaisitti@gmail.com | tent.ronnachai@outlook.com
 
 ---
 
