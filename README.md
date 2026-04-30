@@ -1,114 +1,101 @@
-<h1 align="center">Hi, I'm Ronnachai Sitthichoksathit </h1>
+# Ronnachai Sitthichoksathit
 
-<p align="center">
-  <strong>Cloud Engineer · DevOps Engineer · DevSecOps</strong><br/>
-  CMU Computer Engineering Graduate · Chiang Mai, Thailand
-</p>
+**Platform Engineering · DevSecOps · Cloud Infrastructure**
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/ronnachai-sitthichoksathit" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <img src="https://img.shields.io/badge/Open%20to%20Work-2ea44f?style=for-the-badge" alt="Open to Work"/>
-  <img src="https://img.shields.io/badge/AWS%20SAA--C03-In%20Preparation-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS SAA-C03"/>
-</p>
+Computer Engineering Graduate — Chiang Mai University (2026)
+Open to Cloud Engineer, DevOps Engineer, and Platform Engineer roles · Bangkok or Remote
+
+[LinkedIn](https://linkedin.com/in/tent-ronnachai) · ronnachaisitti@gmail.com
 
 ---
 
-## About Me
+## About
 
-I'm a **Computer Engineering graduate from Chiang Mai University (2026)** specialising in cloud infrastructure, CI/CD automation, and DevSecOps.
+I design and operate CI/CD pipelines, container infrastructure, and cloud-provisioned environments. My
+focus is on building systems that are reproducible, observable, and secure by default — from the first
+`git push` to a verified image in production.
 
-During my internship at **CMU's IT Services Centre (ITSC)**, I led a production GitOps migration using ArgoCD that cut manual deployment steps by ~80% and delivered zero-downtime rollouts across 3+ microservices on an on-premise Kubernetes cluster.
+During my internship at CMU's IT Services Centre (ITSC), I led a GitOps migration to ArgoCD that reduced
+manual deployment steps by approximately 80% and delivered zero-downtime rollouts across three
+microservices running on an on-premise Kubernetes cluster.
 
-I also built **[VisScan](https://github.com/Unlxii/VisScan)** — an open-source DevSecOps scanning platform that integrates container security (Trivy), SAST (Semgrep), and secret detection (Gitleaks) into a GitLab CI pipeline, with a RabbitMQ-backed queue and a Verified Release Gate that blocks vulnerable images from ever reaching production.
-
-Currently preparing for **AWS Solutions Architect Associate (SAA-C03)** and actively exploring Terraform/IaC.
-
----
-
-## Tech Stack
-
-### CI/CD & GitOps
-![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-
-### Containers & Orchestration
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Kaniko](https://img.shields.io/badge/Kaniko-FF6C37?style=flat-square&logo=google-cloud&logoColor=white)
-
-### Cloud & IaC
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Huawei Cloud](https://img.shields.io/badge/Huawei%20Cloud-CF0A2C?style=flat-square&logo=huawei&logoColor=white)
-
-### DevSecOps
-![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aqua-security&logoColor=white)
-![Semgrep](https://img.shields.io/badge/Semgrep-4B2896?style=flat-square&logo=semgrep&logoColor=white)
-![Gitleaks](https://img.shields.io/badge/Gitleaks-1A1A1A?style=flat-square&logo=git&logoColor=white)
-
-### Messaging & Monitoring
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+My capstone project, VisScan, is a production-deployed DevSecOps platform that runs an 8-stage GitLab CI
+pipeline on every code push — running Gitleaks, Semgrep, and Trivy in parallel, building container images
+with Kaniko, and blocking promotion of any image carrying unresolved CRITICAL CVEs through a hard-gated
+release stage.
 
 ---
 
-## Featured Project — VisScan
+## Core Competencies
 
-> **An open-source DevSecOps pipeline platform for GitLab CI**
-
-VisScan automates security scanning for every code push — container vulnerabilities, static code analysis, and secret detection — all gated behind a **Verified Release Gate** that prevents vulnerable images from being deployed.
-
-| Repo | Description |
+| Domain | Tools and Technologies |
 |---|---|
-| [**Unlxii/VisScan**](https://github.com/Unlxii/VisScan) | Core scanning platform (Trivy · Semgrep · Gitleaks · RabbitMQ) |
-| [**Unlxii/VisScan-gitlab-ci-template**](https://github.com/Unlxii/VisScan-gitlab-ci-template) | Reusable GitLab CI template — integrate in under 10 minutes |
-
-**Key outcomes:**
-- Blocks vulnerable container images automatically before they reach any environment
-- Full scan-to-gate pipeline completes in under 10 minutes
-- Daemon-less Kaniko builds run safely in rootless Kubernetes environments
-- RabbitMQ queue sustains consistent throughput under parallel scan load
-
----
-
-## Other Repositories
-
-<!--| Repo | Stack | Description |-->
-<!--|---|---|---|-->
-<!--| [terraform-aws-demo](https://github.com/Unlxii/terraform-aws-demo) | Terraform · AWS | VPC + Subnet + EC2 provisioned with IaC |-->
+| CI/CD and GitOps | GitLab CI/CD, GitHub Actions, ArgoCD |
+| Containers and Orchestration | Docker, Kubernetes, Kaniko |
+| Infrastructure as Code | Terraform (AWS), Docker Compose |
+| Cloud | AWS (VPC, EC2, RDS, IAM, S3), Huawei Cloud |
+| Message Queues | RabbitMQ (priority queues, dead-letter queues) |
+| Databases | PostgreSQL 15, Prisma ORM |
+| Application Layer | Next.js 16, tRPC, Node.js, TypeScript |
+| DevSecOps | Trivy, Semgrep, Gitleaks, Cosign, OpenTelemetry |
+| Scripting | Bash, Python |
 
 ---
 
-## Certifications
+## Featured Work
 
-| Badge | Certification |
-|---|---|
-| ![AWS CCP](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=flat-square&logo=amazon-aws) | AWS Cloud Practitioner Essentials |
-| ![HCCDA](https://img.shields.io/badge/Huawei-HCCDA%20Tech%20Essentials-CF0A2C?style=flat-square&logo=huawei) | Huawei HCCDA – Tech Essentials |
-| ![Linux](https://img.shields.io/badge/Cisco-Linux%20Essentials-1BA0D7?style=flat-square&logo=cisco) | Linux Essentials (Cisco) |
-| ![SAA-C03](https://img.shields.io/badge/AWS-SAA--C03%20In%20Preparation-FF9900?style=flat-square&logo=amazon-aws) | AWS Solutions Architect Associate *(in active preparation)* |
+### VisScan — DevSecOps Scanning Platform
+[github.com/Unlxii/VisScan](https://github.com/Unlxii/VisScan)
 
----
+An open-source SaaS platform that automates container security scanning across an 8-stage GitLab CI
+pipeline. Engineers trigger scans from a web dashboard; a TypeScript worker consumes jobs from a
+RabbitMQ priority queue, fires a GitLab pipeline trigger, and streams live stage progress back to the
+browser via Server-Sent Events.
 
-## GitHub Stats
+Key technical decisions:
+- Daemon-less Kaniko builds allow container image construction inside a rootless runner environment
+-   without requiring Docker-in-Docker
+-   - Dual-lane RabbitMQ queues (`scan_jobs_build` / `scan_jobs_scan`) with per-channel `prefetch(5)` and a
+    -   worker-side concurrency gate prevent runner oversubscription
+    -   - AES-256-CBC encryption of all stored Git and Docker credentials, decrypted only in-memory at job
+        -   construction time
+        -   - Verified Release Gate blocks image promotion if Trivy reports any CRITICAL-severity CVEs; a CycloneDX
+            -   SBOM is generated as a pipeline artifact on every successful build
+            -   - OpenTelemetry instrumentation activates via environment variable with zero code changes
+             
+                - **Stack:** Next.js 16 · tRPC · TypeScript · RabbitMQ · PostgreSQL · GitLab CI · Kaniko · Trivy · Semgrep · Gitleaks · Cosign · Docker Compose
+             
+                - ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Unlxii&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Unlxii&layout=compact&theme=github_dark&hide_border=true" height="150"/>
-</p>
+                ### terraform-aws-demo — AWS Infrastructure as Code
+                [github.com/Unlxii/terraform-aws-demo](https://github.com/Unlxii/terraform-aws-demo)
 
----
+                Modular Terraform configuration for provisioning a production-ready AWS environment. Demonstrates remote
+                state management with S3 backend and DynamoDB locking, IAM least-privilege role definitions, and
+                parameterized module composition.
 
-<p align="center">
-  Open to <strong>Cloud Engineer</strong>, <strong>DevOps Engineer</strong>, and <strong>Platform Engineer</strong> roles in Bangkok or remote<br/>
-  ronnachaisitti@gmail.com | tent.ronnachai@outlook.com
-</p>
+                **Stack:** Terraform · AWS (VPC · EC2 · RDS · IAM · S3)
+
+                ---
+
+                ## Certifications
+
+                | Certification | Status |
+                |---|---|
+                | AWS Solutions Architect Associate (SAA-C03) | In Preparation |
+                | AWS Cloud Practitioner | Earned |
+                | Huawei HCCDA Tech Essentials | Earned |
+                | Linux Essentials (Cisco) | Earned |
+
+                ---
+
+                ## Currently Working On
+
+                - AWS SAA-C03 exam preparation
+                - - Extending VisScan with a `LOCAL_DEMO_MODE` for offline evaluation
+                  - - Exploring Helm chart packaging for VisScan's production deployment
+                   
+                    - ---
+
+                    *Open to Cloud Engineer, DevOps Engineer, and Platform Engineer roles in Bangkok or remote.*
+                    *ronnachaisitti@gmail.com · tent.ronnachai@outlook.com*
