@@ -1,11 +1,11 @@
 # Ronnachai Sitthichoksathit
 
-Computer Engineering Graduate | DevSecOps | Platform Engineering | Open to Work
+**Platform Engineering · DevSecOps · Cloud Infrastructure**
 
 Computer Engineering Graduate — Chiang Mai University (2026)
 Open to Cloud Engineer, DevOps Engineer, and Platform Engineer roles · Bangkok or Remote
 
-[LinkedIn](https://linkedin.com/in/tent-ronnachai) · ronnachaisitti@gmail.com | tent.ronnachai@outlook.com
+[LinkedIn](https://linkedin.com/in/tent-ronnachai) · ronnachaisitti@gmail.com
 
 ---
 
@@ -54,48 +54,49 @@ browser via Server-Sent Events.
 
 Key technical decisions:
 - Daemon-less Kaniko builds allow container image construction inside a rootless runner environment
--   without requiring Docker-in-Docker
--   - Dual-lane RabbitMQ queues (`scan_jobs_build` / `scan_jobs_scan`) with per-channel `prefetch(5)` and a
-    -   worker-side concurrency gate prevent runner oversubscription
-    -   - AES-256-CBC encryption of all stored Git and Docker credentials, decrypted only in-memory at job
-        -   construction time
-        -   - Verified Release Gate blocks image promotion if Trivy reports any CRITICAL-severity CVEs; a CycloneDX
-            -   SBOM is generated as a pipeline artifact on every successful build
-            -   - OpenTelemetry instrumentation activates via environment variable with zero code changes
-             
-                - **Stack:** Next.js 16 · tRPC · TypeScript · RabbitMQ · PostgreSQL · GitLab CI · Kaniko · Trivy · Semgrep · Gitleaks · Cosign · Docker Compose
-             
-                - ---
+  without requiring Docker-in-Docker
+- Dual-lane RabbitMQ queues (`scan_jobs_build` / `scan_jobs_scan`) with per-channel `prefetch(5)` and a
+  worker-side concurrency gate prevent runner oversubscription
+- AES-256-CBC encryption of all stored Git and Docker credentials, decrypted only in-memory at job
+  construction time
+- Verified Release Gate blocks image promotion if Trivy reports any CRITICAL-severity CVEs; a CycloneDX
+  SBOM is generated as a pipeline artifact on every successful build
+- OpenTelemetry instrumentation activates via environment variable with zero code changes
 
-                ### terraform-aws-demo — AWS Infrastructure as Code
-                [github.com/Unlxii/terraform-aws-demo](https://github.com/Unlxii/terraform-aws-demo)
+**Stack:** Next.js 16 · tRPC · TypeScript · RabbitMQ · PostgreSQL · GitLab CI · Kaniko · Trivy · Semgrep ·
+Gitleaks · Cosign · Docker Compose
 
-                Modular Terraform configuration for provisioning a production-ready AWS environment. Demonstrates remote
-                state management with S3 backend and DynamoDB locking, IAM least-privilege role definitions, and
-                parameterized module composition.
+---
 
-                **Stack:** Terraform · AWS (VPC · EC2 · RDS · IAM · S3)
+<!-- ### terraform-aws-demo — AWS Infrastructure as Code
+[github.com/Unlxii/terraform-aws-demo](https://github.com/Unlxii/terraform-aws-demo)
 
-                ---
+Modular Terraform configuration for provisioning a production-ready AWS environment. Demonstrates remote
+state management with S3 backend and DynamoDB locking, IAM least-privilege role definitions, and
+parameterized module composition.
 
-                ## Certifications
+**Stack:** Terraform · AWS (VPC · EC2 · RDS · IAM · S3) -->
 
-                | Certification | Status |
-                |---|---|
-                | AWS Solutions Architect Associate (SAA-C03) | In Preparation |
-                | AWS Cloud Practitioner | Earned |
-                | Huawei HCCDA Tech Essentials | Earned |
-                | Linux Essentials (Cisco) | Earned |
+---
 
-                ---
+## Certifications
 
-                ## Currently Working On
+| Certification | Status |
+|---|---|
+| AWS Solutions Architect Associate (SAA-C03) | In Preparation |
+| AWS Cloud Practitioner | Earned |
+| Huawei HCCDA Tech Essentials | Earned |
+| Linux Essentials (Cisco) | Earned |
 
-                - AWS SAA-C03 exam preparation
-                - - Extending VisScan with a `LOCAL_DEMO_MODE` for offline evaluation
-                  - - Exploring Helm chart packaging for VisScan's production deployment
-                   
-                    - ---
+---
 
-                    *Open to Cloud Engineer, DevOps Engineer, and Platform Engineer roles in Bangkok or remote.*
-                    *ronnachaisitti@gmail.com · tent.ronnachai@outlook.com*
+## Currently Working On
+
+- AWS SAA-C03 exam preparation
+- Extending VisScan with a `LOCAL_DEMO_MODE` for offline evaluation
+- Exploring Helm chart packaging for VisScan's production deployment
+
+---
+
+*Open to Cloud Engineer, DevOps Engineer, and Platform Engineer roles in Bangkok or remote.*
+*ronnachaisitti@gmail.com · tent.ronnachai@outlook.com*
