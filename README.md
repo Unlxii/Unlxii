@@ -5,7 +5,7 @@
 Computer Engineering Graduate — Chiang Mai University (2026)
 Open to Cloud Engineer, DevOps Engineer, and Platform Engineer roles · on-site or Remote
 
-[LinkedIn](https://linkedin.com/in/tent-ronnachai) · ronnachaisitti@gmail.com | temt.ronnachai@outlook.com
+[LinkedIn](https://linkedin.com/in/tent-ronnachai) · ronnachaisitti@gmail.com | tent.ronnachai@outlook.com
 
 ---
 
