@@ -84,7 +84,7 @@ parameterized module composition.
 | Certification | Status |
 |---|---|
 | AWS Solutions Architect Associate (SAA-C03) | In Preparation |
-| AWS Cloud Practitioner | Earned |
+| AWS Cloud Practitioner | In Preparation (course complete) |
 | Huawei HCCDA Tech Essentials | Earned |
 | Linux Essentials (Cisco) | Earned |
 
