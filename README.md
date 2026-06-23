@@ -15,9 +15,7 @@ I design and operate CI/CD pipelines, container infrastructure, and cloud-provis
 focus is on building systems that are reproducible, observable, and secure by default — from the first
 `git push` to a verified image in production.
 
-During my internship at CMU's IT Services Centre (ITSC), I led a GitOps migration to ArgoCD that reduced
-manual deployment steps by approximately 80% and delivered zero-downtime rollouts across three
-microservices running on an on-premise Kubernetes cluster.
+During my Cooperative Education program at CMU's IT Services Centre (ITSC), I designed and built GitLab CI/CD pipelines following a GitOps approach for a QR Payment service, collaborating with a senior engineer mentor from scratch — deploying to an on-premise Kubernetes cluster via ArgoCD with rolling update strategy.
 
 My capstone project, VisScan, is a production-deployed DevSecOps platform that runs an 8-stage GitLab CI
 pipeline on every code push — running Gitleaks, Semgrep, and Trivy in parallel, building container images
